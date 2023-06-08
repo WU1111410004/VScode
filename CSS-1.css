@@ -1,0 +1,157 @@
+body
+{
+    font-family:'Times New Roman' , 'Microsoft jhengHei';
+    min-height:160vh;
+    overflow-x: hidden;
+    background:#000;
+    color:#fff;
+}
+#main
+{
+    overflow:auto;
+    width:100%;
+    margin:0 auto;
+    min-height:300px;
+    text-decoration:none;
+}
+#content
+{
+    width:600px;
+    float:right;
+    padding:10px;
+    text-decoration:none;
+}
+#sidebar
+{
+    width: 250px;;
+    height: auto;
+    float:left;
+    background-color:#FFD700;
+    text-decoration:none;
+    text-align: left;
+}
+.bar-title
+{
+    font-size: 30px;
+    color: #000000;
+}
+.bar1
+{
+    margin-bottom: 50px;
+} 
+.bar li
+{
+    margin-bottom: 10px;
+}
+.bar1 a
+{
+    display: block;
+    color: #000000;
+    text-decoration:none;
+    margin-bottom: 10px;
+}
+.bar1 a:hover
+{
+    display: block;
+    color: #5ac700;
+    font-size: 24px;
+} 
+.bar2
+{
+    margin-bottom: 0px;
+} 
+.bar2 ul 
+{
+    margin-bottom: 20px;
+    display: none;
+}
+.bar2 ul li a
+{
+    display: block;
+    color: #000000;
+}
+.bar1>.bar1 li
+{
+    margin-bottom: 20px;
+}
+.bar1>.bar1 li>.bar2 ul 
+{
+    display: block;
+}
+.bar1>.bar1 li>.bar2 ul >.bar1 ul li a:hover, .bar1>.bar1 li>.bar2 ul >.bar1 ul li a.active
+{
+    display: block;
+    color: #5ac700;
+    font-size: 24px;
+} 
+#tool li a :hover{background-color: #59c004;}
+.page-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+nav
+{
+    background-color:#FFD700;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-decoration:none;
+    display: block;
+}
+nav p
+{
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    display: inline;
+}
+nav ul 
+{
+margin: 0 auto;
+padding: 10px;
+text-align: right;
+padding-top: 0;
+}
+nav ul li
+{
+display:inline;
+padding-top: 0;
+line-height: 10px;
+margin: 0;
+}
+nav ul li a
+{
+display: inline; 
+}
+nav ul li a:hover
+{
+display: inline;
+border-bottom: 2px solid #2E86C1; 
+}
+.button
+{
+    background-color: none;
+    font-size: 18px;
+    color: black;
+    color: inherit;
+    padding: 3px;
+    text-decoration:none;
+    border-radius: 0;
+    justify-content: space-between;
+}
+.act 
+{
+border-bottom: 2px solid #2E86C1; 
+}
+footer 
+{
+color: white;
+background-image: linear-gradient(to bottom right, #002c8b, #00aeff);             
+text-align: center;
+font-size: 18px;
+padding:30px 0 30px 0;
+}
+
